@@ -97,8 +97,8 @@ def delete_site():
     if os.path.exists('wordpress') and os.path.isdir('wordpress'):
         shutil.rmtree('wordpress')
     
-    # os.system('docker rmi wordpress')
-    # os.system('docker rmi mariadb')
+    os.system('docker rmi wordpress')
+    os.system('docker rmi mariadb')
     print("Deleting site...")
 
 if __name__ == '__main__':

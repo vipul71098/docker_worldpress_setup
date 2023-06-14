@@ -10,10 +10,10 @@ This repository provides a Python script to Check if docker and docker-compose i
   To create a WordPress site, follow these steps: <br >
    1. Clone this repository to your local machine: <br >
     
-    git clone https://github.com/vipul71098/docker_worldpress_setup.git 
+    git clone https://github.com/vipul71098/docker_worldpress_setup.git
    2. Navigate to the cloned repository: <br>
    
-    cd docker-wordpress-setup
+    cd docker_worldpress_setup
    3. Before running the script, ensure that you have the following dependencies installed:
 
     Docker
@@ -33,7 +33,8 @@ If any of these dependencies are missing, the script will automatically attempt 
    
      python3 main.py <website_name> enable
      
-  * after executing above command it will Prompt the user to open [example.com ](http://example.com)in a browser.
+  * after executing above command it will Prompt the user to open [example.com ](http://example.com)in a browser.<br>
+  *  to access site on   [example.com ](http://example.com)in a browser first we have to update  **/etc/hosts** file to **127.0.0.1**  $~~~~~~~~~~~$    **example.com**
     
    4.2 To disable worldpress we have to pass argument **disable** to command line <br>
    
